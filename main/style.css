@@ -141,7 +141,13 @@ img {
 }
 
 .sitenav__buttons img:hover {
+  transform: scale(1.5);
   opacity: 0.8;
+}
+
+.sitenav__buttons img:active {
+  background-color: darkcyan;
+  border-radius: 50%;
 }
 
 /* Header */
@@ -382,9 +388,8 @@ img {
   width: 35px;
   height: 35px;
   background-image: url("../images/customer-small-1.svg");
-  display: inline-block;
+  display: block;
   background-size: contain;
-  position: absolute;
 }
 
 .acting-switch__icon::before {
@@ -392,7 +397,7 @@ img {
   width: 35px;
   height: 35px;
   background-image: url("../images/customer-small-2.svg");
-  display: inline-block;
+  display: block;
   background-size: contain;
 }
 
@@ -401,7 +406,7 @@ img {
   width: 35px;
   height: 35px;
   background-image: url("../images/customer-small-3.svg");
-  display: inline-block;
+  display: block;
   background-size: contain;
 }
 
