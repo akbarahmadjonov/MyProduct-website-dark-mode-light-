@@ -48,13 +48,13 @@
 
 html {
   scroll-behavior: smooth;
-  transition: all 2s ease;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  transition: all 0.4s ease-in-out;
 }
 
 body {
@@ -371,7 +371,7 @@ img {
 }
 
 .acting__paragraphs {
-  width: 350px; 
+  width: 350px;
   position: relative;
 }
 
@@ -404,7 +404,7 @@ img {
 }
 
 .acting__collaborative {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 /* Acting */
