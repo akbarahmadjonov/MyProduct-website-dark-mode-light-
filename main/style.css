@@ -38,12 +38,14 @@
   --main-bg-color: #fff;
   --main-title-color: #22343d;
   --main-text-color: #22343d;
+  --standartLogo: url("../images/built-bg.png");
 }
 
 .dark {
   --main-bg-color: #1f2e35;
   --main-title-color: #fff;
   --main-text-color: #fff;
+  --standartLogo: url("../images/light-bg.png");
 }
 
 html {
@@ -212,7 +214,7 @@ img {
 
 /* Old product */
 .product-built {
-  background-image: url("../images/built-bg.png");
+  background-image: var(--standartLogo);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
