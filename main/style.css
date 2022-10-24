@@ -86,7 +86,7 @@ img {
 }
 
 .container {
-  width: 1340px;
+  width: 1140px;
   margin: 0 auto;
 }
 
@@ -224,6 +224,7 @@ img {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
+  padding-bottom: 70px;
 }
 
 .product-built h1 {
