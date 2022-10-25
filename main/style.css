@@ -1017,4 +1017,8 @@ li {
   text-align: center;
 }
 
+.footer__reserved small {
+  color: var(--main-text-color);
+}
+
 /* Footer */
