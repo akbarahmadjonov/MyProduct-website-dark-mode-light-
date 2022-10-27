@@ -40,6 +40,7 @@
   --main-accordion-color: #fff;
   --standartLogo: url("../images/built-bg.png");
   --main-enterprise-bg: #fff;
+  --main-hr-color: #e7e7e7;
 }
 
 .dark {
@@ -48,6 +49,7 @@
   --main-text-color: #fff;
   --main-enterprise-bg: #22343d;
   --main-accordion-color: #1f2e35;
+  --main-hr-color: #474747;
 }
 
 html {
@@ -475,7 +477,7 @@ sup {
 
 .faq hr {
   margin-top: 30px;
-  border: 0.1px solid #e7e7e7;
+  border: 0.1px solid var(--main-hr-color);
 }
 
 .faq__wrapper .faq__paragraph {
