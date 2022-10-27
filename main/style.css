@@ -34,6 +34,29 @@
 
 /* Styling font Poppins */
 
+/** Welcome page styles **/
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.wrapper img {
+  width: 100%;
+}
+
+.wrapper .btn {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 11px 70px;
+  background-color: #02897a;
+}
+
+/** Welcome page styles **/
+
 :root {
   --main-bg-color: #fff;
   --main-title-color: #22343d;
