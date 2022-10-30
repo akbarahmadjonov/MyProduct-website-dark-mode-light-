@@ -1253,6 +1253,10 @@ li {
     margin-right: 0px;
   }
 
+  .strategy__boxes img {
+    width: 100%;
+  }
+
   /* Strategies */
 
   /* Pricing table */
