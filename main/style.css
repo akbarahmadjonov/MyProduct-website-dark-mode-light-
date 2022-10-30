@@ -787,7 +787,7 @@ sup {
   color: #fff;
 }
 
-.pricing__box a {
+.pricing__box:hover a {
   background-color: #fff;
   color: #000;
 }
@@ -913,6 +913,7 @@ sup {
   display: block;
   margin: 0 auto;
 }
+
 .joining__title {
   display: flex;
   justify-content: center;
@@ -1052,7 +1053,7 @@ li {
 /* Footer */
 
 /* Media */
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 576px) {
   /* Header */
   .sitenav__list {
     display: none;
@@ -1190,6 +1191,153 @@ li {
   }
 
   /* Acting section */
+
+  /* Processing */
+  .processing {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .processing__heading {
+    width: 304px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .processing__title {
+    width: 351px;
+  }
+
+  .processing__avatar {
+    float: none;
+  }
+
+  .processing__thumb {
+    margin-top: 80px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #pic1::after {
+    display: none;
+  }
+
+  #pic1::before {
+    display: none;
+  }
+
+  /* Processing */
+
+  /* Strategies */
+  .strategy {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .strategy h1 {
+    margin-top: 0;
+  }
+
+  .strategy__blogs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .strategy__boxes {
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+
+  /* Strategies */
+
+  /* Pricing table */
+  .pricing__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+
+  .pricing__box {
+    padding: 25px 65px 25px 65px;
+    margin-bottom: 32px;
+  }
+
+  .pricing__box--last {
+    width: 306px;
+  }
+
+  /* Pricing table */
+
+  /* Testimonials */
+  .testimonials__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .testimonials__title {
+    width: 327px;
+  }
+
+  .testimonials__box {
+    width: 327px;
+    margin-bottom: 32px;
+  }
+
+  /* Testimonials */
+
+  /* Joining company */
+  .joining__company {
+    width: 371px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .joining__title {
+    flex-direction: column;
+  }
+
+  .joining__bg img {
+    width: 100%;
+  }
+
+  .joining__upper {
+    width: 328px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .joining__upper h1 {
+    font-size: 30px;
+    line-height: 151.4%;
+  }
+
+  .joining__upper a {
+    margin-top: 40px;
+  }
+
+  /* Joining company */
+
+  /* Footer */
+  .footer__columns {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer__columns strong {
+    margin-top: 30px;
+  }
+
+  .footer__box--fourth {
+    margin: 0 auto;
+  }
+
+  .footer__box--fourth form input {
+    display: inline;
+    width: 325px;
+  }
+
+  /* Footer */
 }
 
 /* Media */
