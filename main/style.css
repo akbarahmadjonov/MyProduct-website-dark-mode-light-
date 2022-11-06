@@ -55,14 +55,23 @@
   background-color: #02897a;
 }
 
+.wrapper .btn:hover {
+  transition: all 0.1s ease;
+  transform: rotateZ(10deg);
+  background-color: #03baa5;
+}
+
 /** Welcome page styles **/
 
 :root {
   --main-bg-color: #fff;
   --main-title-color: #22343d;
   --main-text-color: #22343d;
+  --main-bg-color-off: #22343d;
+  --main-bg-color-client: #f5f5f5;
   --standartLogo: url("../images/built-bg.png");
   --main-dark-bg-processing: url("../images/process-bg.png");
+  --main-bg-img-arrow: url("../images/resource-icon-arrow.svg");
 }
 
 .dark {
@@ -70,7 +79,9 @@
   --main-title-color: #fff;
   --main-text-color: #fff;
   --standartLogo: url("../images/light-bg.png");
+  --main-bg-color-client: #22343d;
   --main-dark-bg-processing: url("../images/bg-dark-processing.png");
+  --main-bg-img-arrow: url("../images/resource-icon-arrow-dark.svg");
 }
 
 html {
@@ -118,6 +129,7 @@ img {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .sitenav {
@@ -1038,7 +1050,6 @@ li {
 
 .footer__box--fourth form input:focus {
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  border: 1px solid rgba(81, 203, 238, 1);
 }
 
 .footer__reserved {
@@ -1348,6 +1359,13 @@ li {
   }
 
   /* Footer */
+}
+
+@media only screen and (max-width: 368px) {
+  .footer__box--fourth form input {
+    display: inline;
+    width: 250px;
+  }
 }
 
 /* Media */

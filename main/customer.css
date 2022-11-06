@@ -1,0 +1,361 @@
+/* Our clients */
+.clients__title h1 {
+  text-align: center;
+  font-size: 34px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 60px;
+  color: var(--main-title-color);
+}
+
+.clients__inner ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* Our clients */
+/** Our clients media **/
+@media only screen and (max-width: 576px) {
+  .clients__title h1 {
+    margin-top: 100px;
+  }
+  .clients__inner ul {
+    flex-wrap: wrap;
+  }
+
+  .clients__inner img {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 228px) {
+  .clients__title h1 {
+    font-size: 28px;
+  }
+}
+
+/** Our clients media **/
+
+/* Why choose */
+.testimonials {
+  margin-top: 100px;
+  background-color: var(--main-bg-color-client);
+  padding: 24px 0 68px 0;
+}
+.testimonials__wrapper {
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.testimonials__box {
+  background-color: transparent;
+}
+
+.testimonials__box h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: var(--main-text-color);
+}
+
+.testimonials__box p {
+  color: var(--main-text-color);
+}
+
+.testimonials__box1::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/special-business-icon.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.testimonials__box2::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/instant-result-icon.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.testimonials__box3::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/fastest-way-icon.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/* Why choose */
+
+/* How product work */
+.product-working__title h1 {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: var(--main-title-color);
+}
+
+.product-working__inner {
+  margin: 101px 0 101px 0;
+}
+
+.product-working__box {
+  display: flex;
+  align-items: center;
+}
+
+.product-working__box + .product-working__box {
+  margin-top: 100px;
+}
+
+.product-working__content {
+  width: 438px;
+  margin-left: 89px;
+}
+
+.product-working__content ul {
+  padding: 0;
+  margin: 0;
+}
+
+.product-working__content li {
+  margin: 16px 0 16px 0;
+}
+
+.product-working__title1 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--main-text-color);
+}
+
+.product-working__title2 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--main-text-color);
+}
+
+.product-working__title3 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--main-text-color);
+}
+
+.product-working__get {
+  text-align: center;
+}
+
+.product-working__reversed {
+  flex-direction: row-reverse;
+}
+
+.product-working__margins {
+  margin-right: 89px;
+}
+
+.product-working__inner a {
+  padding: 11px 18px;
+  font-weight: 500;
+  margin-top: 77px;
+  font-size: 17px;
+  line-height: 22px;
+  font-family: "Poppins";
+  background: #02897a;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #ffffff;
+  display: inline-block;
+}
+
+/* How product work */
+
+/** How product work Media **/
+@media only screen and (max-width: 576px) {
+  .product-working__box img {
+    width: 100%;
+  }
+  .product-working__box {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .product-working__reversed {
+    display: block;
+  }
+
+  .product-working__content {
+    width: 270px;
+    margin-left: 0;
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 306px) {
+  .product-working__content {
+    width: 180px;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 70px;
+  }
+
+  .product-working__margins {
+    margin-right: 0px;
+  }
+}
+
+/** How product work Media **/
+
+/* Received offers */
+.received-offers {
+  margin-bottom: 150px;
+}
+
+.received-offers__inner {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.received-offers {
+  padding: 35px 0 35px 0;
+  background-color: var(--main-bg-color-client);
+}
+
+.received-offers__title {
+  width: 537px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.received-offers__title h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--main-title-color);
+}
+
+.received-offers__inner {
+  padding-top: 95px;
+}
+
+.received-offers__box {
+  text-align: center;
+}
+
+.received-offers__box--1::before {
+  content: "";
+  width: 128px;
+  height: 128px;
+  background-image: url("../images/received-offers-business.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
+
+.received-offers__box--2::before {
+  content: "";
+  width: 128px;
+  height: 128px;
+  background-image: url("../images/received-offers-enterprise.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
+
+.received-offer__item2 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.received-offer__item1 {
+  margin: 27px 0 14px 0;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: var(--main-title-color);
+}
+
+.received-offers__box small {
+  margin-top: 18px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: var(--main-text-color);
+}
+/* Received offers */
+
+/** Received offers Media **/
+@media only screen and (max-width: 546px) {
+  .received-offers__inner {
+    flex-wrap: wrap;
+  }
+
+  .received-offers__box {
+    padding-top: 60px;
+  }
+
+  .received-offers__title {
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .received-offers__title h2 {
+    margin: 0;
+  }
+
+  .received-offers__inner {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 279px) {
+  .received-offers__title {
+    width: 190px;
+  }
+
+  .received-offers__title h2 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 227px) {
+  .received-offers__title {
+    width: 180px;
+  }
+
+  .received-offers__title h2 {
+    font-size: 20px;
+  }
+}
+/** Received offers Media **/
